@@ -1,0 +1,520 @@
+/* FONT */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #e4d1e7;
+    /* SAME lavender color from screenshot */
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR COLORS */
+.custom-navbar {
+    background-color: #583150;
+}
+
+/* LOGO */
+.logo-img {
+    width: 130px;
+    height: auto;
+}
+
+/* MENU TEXT */
+.nav-link {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+/* SEARCH BOX */
+.search-box {
+    position: relative;
+}
+
+.search-box input {
+    padding: 8px 35px 8px 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 300px;
+    background: #e0d3dd;
+}
+
+.search-box i {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    color: #333;
+    font-size: 18px;
+}
+/* USER ICON IN NAVBAR */
+.navbar .user-icon {
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.navbar .user-icon:hover {
+    transform: scale(1.15);
+    color: #dcd2df;  /* light hover color */
+}
+
+
+
+
+/* HERO SECTION */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #E877CF;
+    padding: 0 50px;
+    color: white;
+}
+
+/* LEFT TEXT */
+.hero-left {
+    width: 55%;
+}
+
+.hero-left h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.hero-left p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* BUTTON */
+.hero-btn {
+    background: #9e3589;
+    padding: 0 28px;
+    border-radius: 10px;
+    margin-top: 30px;
+    display: inline-flex;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    width: auto;
+}
+
+.hero-btn span {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* RIGHT IMAGE */
+.hero-right {
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-right img {
+    width: 90%;
+    height: auto;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+
+.makeup-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+}
+
+/* Blue boxes */
+.makeup-box {
+    background: #8ED5E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    /* SAME height for all */
+}
+
+/* Text inside boxes */
+.box-content {
+    text-align: center;
+}
+
+.box-content h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+/* Small black line */
+.small-line {
+    width: 100px;
+    height: 6px;
+    background: black;
+    margin: 0 auto 20px;
+}
+
+/* Image columns */
+.makeup-img {
+    height: 550px;
+    /* SAME height */
+    overflow: hidden;
+}
+
+.makeup-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* PERFECT crop */
+}
+
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.service-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #87D2E1;
+    padding: 0;
+    border: 5px solid #f3d1e5;
+    
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    width: 150px;
+}
+
+.line {
+    width: 70px;
+    height: 5px;
+    background: black;
+    margin: 0 auto;
+        margin-left: 125px;
+
+}
+
+.service-card h2 {
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-left: 100px;
+}
+
+button {
+    background: #EFE9E9;
+    padding: 15px 15px;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 200px;
+        margin-left: 80px;
+
+}
+
+.service-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.why-choose-us {
+    padding: 40px;
+}
+
+.why-container {
+    display: flex;
+    background: #f573ce;
+    padding: 1px;
+    border-radius: 25px;
+    align-items: center;
+    gap: 40px;
+}
+
+.why-image img {
+    width: 400px;
+    border-radius: 20px;
+}
+
+.why-text {
+    flex: 1;
+}
+
+.why-text h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.why-text ul {
+    font-size: 22px;
+    line-height: 1.8;
+    list-style-type: disc;
+}
+
+
+/*Bridal maker over card*/
+/* MAIN ROW FOR EACH CARD */
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.side-img img {
+    height: 600px;
+    /* adjust height as needed */
+    width: 250px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    
+}
+
+/* Card Background Color (Screenshot Blue Box) */
+.card .blue-box {
+    background: #74c3d7;
+    padding: 40px;
+    border-radius: 2px;
+    border: 15px solid white;
+    /* same white border as screenshot */
+}
+
+.card {
+    background: transparent;
+    /* keep it invisible to match screenshot */
+}
+
+h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 23px;
+    line-height: 28px;
+
+}
+
+hr {
+    border: none;
+    border-top: 2px solid white;
+    margin: 25px 0;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.btn {
+    margin-top: 20px;
+    background: #ddd;
+    padding: 15px 25px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: auto;
+}
+
+/*Rating Section*/
+
+.review-wrapper {
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+
+.review-card {
+    background: white;
+    width: 30%;
+    min-height: 250px;
+    border-radius: 12px;
+    border: 2px solid #0b0a0b;
+    padding: 30px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.big-score {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.star-line {
+    color: #ff8c00;
+    font-size: 30px;
+    margin: 10px 0 20px 0;
+}
+
+.text-line-large {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.text-line-small {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.profile-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.icon-circle {
+    width: 55px;
+    height: 55px;
+    background: #8583ff;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.profile-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.review-message {
+    margin-top: 35px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+/*Footer Section*/
+.footer-section {
+    background: #532f4d;
+    /* Same purple */
+    color: #fff;
+    padding: 40px 15px;
+    font-family: Arial, sans-serif;
+    margin-top: 40px;
+    margin-bottom: auto;
+
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.footer-column {
+    width: 22%;
+    min-width: 150px;
+}
+
+.footer-column h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.footer-contact-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 18px;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.footer-contact-item span {
+    font-size: 30px;
+
+}
+
+.footer-line {
+    width: 90%;
+    height: 3px;
+    background: #b58caf;
+    margin: 40px 0;
+    color: white;
+    margin-left: 60px;
+    margin-right: 100px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    /* text left – icons right */
+    align-items: center;
+    /* vertically center */
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer-bottom p {
+    margin: 0;
+    /* remove extra spacing */
+    font-size: 20px;
+    margin-left: 200px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+    margin-right: 400px;
+
+
+}
+
+.social-icons i {
+    font-size: 26px;
+    cursor: pointer;
+}

@@ -1,0 +1,294 @@
+/* FONT */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: pink;
+    /* SAME lavender color from screenshot */
+    margin: 0;
+    padding: 0;
+
+
+}
+
+/* NAVBAR COLORS */
+.custom-navbar {
+    background-color: #583150;
+}
+
+/* LOGO */
+.logo-img {
+    width: 130px;
+    height: auto;
+}
+
+/* MENU TEXT */
+.nav-link {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+/* SEARCH BOX */
+.search-box {
+    position: relative;
+}
+
+.search-box input {
+    padding: 8px 35px 8px 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 300px;
+    background: #e0d3dd;
+}
+
+.search-box i {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    color: #333;
+    font-size: 18px;
+}
+
+
+/* USER ICON IN NAVBAR */
+.navbar .user-icon {
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.navbar .user-icon:hover {
+    transform: scale(1.15);
+    color: #dcd2df;  /* light hover color */
+}
+
+
+
+
+/* Layout */
+.main {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    background: #fbf8ff;
+    padding: 40px 70px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* Back */
+.back {
+    font-size: 20px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    color: #444;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Left Form */
+.left {
+    width: 65%;
+}
+
+.left h2 {
+    font-size: 24px;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background: #ccc;
+    margin-bottom: 25px;
+}
+
+.grey-box {
+    background: #e6e6e6;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.grey-box b {
+    font-weight: 500;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 4px;
+    margin-top: 18px;
+    font-weight: 400;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+textarea {
+    height: 80px;
+    resize: none;
+}
+
+.phone-row {
+    display: flex;
+    gap: 10px;
+}
+
+.phone-row select {
+    width: 95px;
+}
+
+/* Right Side */
+.right {
+    width: 35%;
+    padding-left: 20px;
+    border-left: 1px solid #cfcfcf;
+}
+
+.right-title {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.right p {
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+.right .bold {
+    font-weight: 700;
+    margin: 8px 0;
+}
+
+.right hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+.book-btn {
+    width: 100%;
+    background: #6f6ef5;
+    border: none;
+    padding: 12px 0;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.book-btn:hover {
+    background: #5756e8;
+}
+
+
+/*Footer Section*/
+.footer-section {
+    background: #532f4d;
+    /* Same purple */
+    color: #fff;
+    padding: 40px 15px;
+    font-family: Arial, sans-serif;
+    margin-top: 40px;
+    margin-bottom: auto;
+
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.footer-column {
+    width: 22%;
+    min-width: 150px;
+}
+
+.footer-column h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.footer-contact-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 18px;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.footer-contact-item span {
+    font-size: 30px;
+
+}
+
+.footer-line {
+    width: 90%;
+    height: 3px;
+    background: #b58caf;
+    margin: 40px 0;
+    color: white;
+    margin-left: 60px;
+    margin-right: 100px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    /* text left – icons right */
+    align-items: center;
+    /* vertically center */
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer-bottom p {
+    margin: 0;
+    /* remove extra spacing */
+    font-size: 20px;
+    margin-left: 200px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+    margin-right: 400px;
+
+
+}
+
+.social-icons i {
+    font-size: 26px;
+    cursor: pointer;
+}

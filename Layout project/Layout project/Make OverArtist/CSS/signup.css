@@ -1,0 +1,128 @@
+/* PAGE BACKGROUND */
+body {
+    background: #e6d5e4;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------- SIGNUP PAGE CONTAINER ----------- */
+.login-wrapper {
+    max-width: 450px;
+    margin: 60px auto;
+    padding: 10px;
+}
+
+/* SIGNUP TITLE */
+.login-title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+/* "Already a member?" text */
+.member-text {
+    font-size: 22px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.member-text a {
+    color: #2d4ed8;
+    font-weight: 500;
+}
+
+/* ---------- FORM INPUT LABELS ---------- */
+label {
+    font-size: 20px;
+    display: block;
+    margin-top: 25px;
+}
+
+/* Underline Input Fields */
+.input-line {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 10px 0;
+    font-size: 18px;
+    background: transparent;
+    outline: none;
+}
+
+/* ---------- ROBOT CHECKBOX BOX ---------- */
+.robot-box {
+    margin-top: 35px;
+    padding: 25px;
+    background: #d9d9d9;
+    border: 2px solid #555;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.robot-check {
+    width: 28px;
+    height: 28px;
+    border: 2px solid black;
+}
+
+/* ---------- SIGNUP BUTTON ---------- */
+.login-btn {
+    width: 100%;
+    margin-top: 35px;
+    background: #7588ff;
+    color: white;
+    padding: 18px 0;
+    font-size: 22px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 5px;;
+}
+
+/* ---------- RESPONSIVE ----------- */
+
+@media (max-width: 768px) {
+    .login-wrapper {
+        max-width: 90%;
+        margin-top: 40px;
+    }
+
+    .login-title {
+        font-size: 38px;
+    }
+
+    .member-text {
+        font-size: 20px;
+    }
+
+    .login-btn {
+        font-size: 20px;
+        padding: 15px 0;
+    }
+
+    .robot-box {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .login-title {
+        font-size: 32px;
+    }
+
+    label {
+        font-size: 18px;
+    }
+
+    .input-line {
+        font-size: 16px;
+    }
+
+    .robot-box span {
+        font-size: 16px;
+    }
+}
